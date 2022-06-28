@@ -1,0 +1,98 @@
+{   "tweets_meta" : 47,
+    "users": [
+        {
+            "id": "u001",
+            "username": "mani",
+            "first_name": "Manideep ",
+            "last_name": "Reddy",
+            "full_name": "Manideep Reddy",
+            "avatar_url": "avatarurl1"
+        },
+        {
+            "id": "u002",
+            "username": "max",
+            "first_name": "Max",
+            "last_name": "Well",
+            "full_name": "Max Well",
+            "avatar_url": "avatarurl2"
+        }
+    ],
+
+    "tweets": [
+        {
+            "id": "t001",
+            "body": "first tweet",
+            "date": "21/03/2022",
+            "author": {
+                "id": "u001",
+                "username": "mani",
+                "first_name": "Manideep ",
+                "last_name": "Reddy",
+                "full_name": "Manideep Reddy",
+                "avatar_url": "avatarurl1"
+            },
+            "stats": {
+                "views": 20,
+                "likes": 10,
+                "retweets": 5,
+                "reponses": 2
+            }
+        },
+        {
+            "id": "t003",
+            "body": "third tweet",
+            "date": "21/04/2022",
+            "author": {
+                "id": "u002",
+                "username": "max",
+                "first_name": "Max",
+                "last_name": "Well",
+                "full_name": "Max Well",
+                "avatar_url": "avatarurl2"
+            },
+            "stats": {
+                "views": 15,
+                "likes": 8,
+                "retweets": 6,
+                "reponses": 2
+            }
+        },
+
+        {
+            "id": "t002",
+            "body": "second tweet",
+            "date": "21/03/2022",
+            "author": {
+                "id": "u001",
+            "username": "mani",
+            "first_name": "Manideep ",
+            "last_name": "Reddy",
+            "full_name": "Manideep Reddy",
+            "avatar_url": "avatarurl1"
+            },
+            "stats": {
+                "views": 10,
+                "likes": 5,
+                "retweets": 2,
+                "reponses": 0
+            }
+        }
+    ],
+    "notifications" : [
+        {
+            "id": "n001",
+            "date": "21/03/2022",
+            "type": "push"
+        },
+        {
+            "id": "n002",
+            "date": "23/03/2022",
+            "type": "push"
+        },
+        {
+            "id": "n003",
+            "date": "25/03/2022",
+            "type": "push"
+        }
+    ]
+}
